@@ -1,0 +1,32 @@
+<h1 class="title">
+  Hola! por favor ingrese sus datos😁👇
+</h1>
+
+<form class="form" action="/users/login" method="post" >
+  Email:
+  <input type="email" name="email" class="input" />
+  Contraseña:<input
+    type="password"
+    name="password"
+    class="input"
+    style="margin-bottom:2%;"
+  />
+  <button type="submit" class="btn">
+    Ingresar
+  </button>
+</form>
+
+<div class="containerButton">
+  <a href="/reset-password">
+    ¿Olvidaste tu contraseña?
+  </a>
+</div>
+
+<div class="containerButton" style="flex-direction:column">
+  <h2 class="h2">
+    USUARIO NUEVO?
+  </h2>
+  <button type="submit" onclick="location.href='/register'" class="btn">
+    Registrarse
+  </button>
+</div>

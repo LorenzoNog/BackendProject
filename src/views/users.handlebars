@@ -1,0 +1,21 @@
+
+<div class="navbar">
+  <div class="containerLinks">
+    <a href="http://localhost:2022/products">Productos</a>
+    <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+    <a href="http://localhost:2022/profile">Perfil</a>
+    <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+  </div>
+</div>
+
+<h1 class="title">Lista de usuarios NO administradores.</h1>
+<div class="containerUsers">
+  {{#each users}}
+    <div class="containerUser">
+      <a
+        class="texto"
+        href="http://localhost:3000/users/{{this._id}}"
+      >{{this.first_name}} {{this.last_name}}</a>
+    </div>
+  {{/each}}
+</div>

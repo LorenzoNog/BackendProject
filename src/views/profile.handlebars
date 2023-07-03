@@ -1,0 +1,28 @@
+<div class="navbar">
+  <div class="containerLinks">
+    <a href="http://localhost:2022/products">Productos</a>
+    <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+    <a href="http://localhost:2022/profile">Perfil</a>
+    <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+  </div>
+</div>
+
+<h2 class="title">
+  Tu perfil
+</h2>
+<div class="containerInfoPerfil">
+  <span>Nombre: {{full_name}}</span>
+  <span>Email: {{email}}</span>
+  <span>Rol: {{role}}</span>
+  <span>Edad: {{age}}</span>
+  <span id="userId">Id: {{id}}</span>
+</div>
+
+<div class="containerButton" style="gap: 3%;">
+  <button class="btn" onclick="location.href='/create-product'">
+    Agregar productos
+  </button>
+  <button class="btn" onclick="location.href='/users-list'">
+    Ver usuarios registrados
+  </button>
+</div>

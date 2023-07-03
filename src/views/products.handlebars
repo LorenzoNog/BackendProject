@@ -1,0 +1,51 @@
+<div class="navbar">
+  <div class="containerLinks">
+    <a href="http://localhost:2022/products">Productos</a>
+    <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+    <a href="http://localhost:2022/profile">Perfil</a>
+    <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+  </div>
+</div>
+
+<div class="infoUser">
+  <h1 class="title" style="text-align: center;">
+    Bienvenido,
+    {{user.first_name}}!
+  </h1>
+  <p>Rol: {{user.role}}</p>
+</div>
+
+<h1 class="h2">PRODUCTOS</h1>
+{{#if hasProducts}}
+  <div class="containerProducts">
+    {{#each products}}
+      <div class="containerProduct">
+        <h2 class="titleProduct">
+          {{title}}
+        </h2>
+        <div class="data">
+          <p>
+            {{description}}
+          </p>
+          <p>
+            ${{price}}
+          </p>
+          <p>
+            {{code}}
+          </p>
+          <p>
+            {{status}}
+          </p>
+          <p>
+            {{category}}
+          </p>
+          <button class="btn" style="margin-top: 5%;"  onclick="location.href=`/products/{{id}}`">
+              Ver detalle
+          </button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+{{else}}
+  <h2 class="h2">No hay productos para mostrar.</h2>
+{{/if}}

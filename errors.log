@@ -1,0 +1,775 @@
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-06-26T17:46:05.761Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-06-26T17:46:07.664Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'split')",
+  level: 'error',
+  timestamp: '2023-06-27T22:55:56.408Z'
+}
+{
+  message: 'Proceso de registro fallido.',
+  level: 'error',
+  timestamp: '2023-06-27T23:42:41.761Z'
+}
+{
+  message: 'Proceso de registro fallido.',
+  level: 'error',
+  timestamp: '2023-06-27T23:46:42.586Z'
+}
+{
+  message: 'Proceso de registro fallido.',
+  level: 'error',
+  timestamp: '2023-06-27T23:47:24.161Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'find')",
+  level: 'error',
+  timestamp: '2023-06-27T23:57:17.178Z'
+}
+{
+  message: 'U is not defined',
+  level: 'error',
+  timestamp: '2023-06-27T23:57:39.541Z'
+}
+{
+  message: 'Ya existe un usuario utilizando el email ingresado.',
+  level: 'error',
+  timestamp: '2023-06-27T23:57:44.455Z'
+}
+{
+  message: 'Ya existe un usuario utilizando el email ingresado.',
+  level: 'error',
+  timestamp: '2023-06-27T23:58:21.469Z'
+}
+{
+  message: 'user is not defined',
+  level: 'error',
+  timestamp: '2023-06-28T01:42:29.144Z'
+}
+{
+  message: 'TokensModel.create(...).save is not a function',
+  level: 'error',
+  timestamp: '2023-06-28T01:52:56.910Z'
+}
+{
+  message: "Cannot read properties of null (reading 'user')",
+  level: 'error',
+  timestamp: '2023-06-28T02:17:16.156Z'
+}
+{
+  message: "Cannot read properties of null (reading 'user')",
+  level: 'error',
+  timestamp: '2023-06-28T02:17:27.854Z'
+}
+{ level: 'error', timestamp: '2023-06-28T02:18:13.740Z' }
+{ level: 'error', timestamp: '2023-06-28T02:19:13.605Z' }
+{ level: 'error', timestamp: '2023-06-28T02:19:33.127Z' }
+{ level: 'error', timestamp: '2023-06-28T02:19:55.245Z' }
+{ level: 'error', timestamp: '2023-06-28T02:21:02.297Z' }
+{ level: 'error', timestamp: '2023-06-28T02:21:12.662Z' }
+{ level: 'error', timestamp: '2023-06-28T02:21:30.381Z' }
+{ level: 'error', timestamp: '2023-06-28T02:21:41.423Z' }
+{ level: 'error', timestamp: '2023-06-28T02:21:47.384Z' }
+{ level: 'error', timestamp: '2023-06-28T02:21:51.693Z' }
+{ level: 'error', timestamp: '2023-06-28T02:21:54.755Z' }
+{ level: 'error', timestamp: '2023-06-28T02:22:19.509Z' }
+{ level: 'error', timestamp: '2023-06-28T02:23:37.771Z' }
+{ level: 'error', timestamp: '2023-06-28T02:24:32.608Z' }
+{ level: 'error', timestamp: '2023-06-28T02:27:13.841Z' }
+{ level: 'error', timestamp: '2023-06-28T02:27:48.702Z' }
+{ level: 'error', timestamp: '2023-06-28T02:28:27.727Z' }
+{ level: 'error', timestamp: '2023-06-28T02:28:42.735Z' }
+{ level: 'error', timestamp: '2023-06-28T02:29:01.360Z' }
+{ level: 'error', timestamp: '2023-06-28T02:29:32.115Z' }
+{ level: 'error', timestamp: '2023-06-28T02:30:31.503Z' }
+{ level: 'error', timestamp: '2023-06-28T02:30:52.617Z' }
+{ level: 'error', timestamp: '2023-06-28T02:31:13.997Z' }
+{ level: 'error', timestamp: '2023-06-28T02:31:41.356Z' }
+{ level: 'error', timestamp: '2023-06-28T02:32:07.196Z' }
+{ level: 'error', timestamp: '2023-06-28T02:32:37.286Z' }
+{ level: 'error', timestamp: '2023-06-28T02:33:01.303Z' }
+{ level: 'error', timestamp: '2023-06-28T02:33:44.705Z' }
+{
+  code: 'ERR_HTTP_INVALID_STATUS_CODE',
+  level: 'error',
+  timestamp: '2023-06-28T02:35:56.066Z'
+}
+{ level: 'error', timestamp: '2023-06-28T17:22:26.696Z' }
+{
+  message: 'No se ingresaron los datos correspondientes.',
+  level: 'error',
+  timestamp: '2023-06-28T22:07:38.958Z'
+}
+{
+  message: 'No se ingresaron los datos correspondientes.',
+  level: 'error',
+  timestamp: '2023-06-28T22:07:53.680Z'
+}
+{
+  message: 'No se encontro un usuario con el email ingresado.',
+  level: 'error',
+  timestamp: '2023-06-28T22:29:46.084Z'
+}
+{
+  message: "Cannot read properties of null (reading '_id')",
+  level: 'error',
+  timestamp: '2023-06-28T22:56:40.641Z'
+}
+{
+  message: "Cannot read properties of null (reading '_id')",
+  level: 'error',
+  timestamp: '2023-06-28T22:57:59.902Z'
+}
+{ level: 'error', timestamp: '2023-06-28T22:59:08.611Z' }
+{ level: 'error', timestamp: '2023-06-28T23:00:35.860Z' }
+{ level: 'error', timestamp: '2023-06-28T23:00:55.314Z' }
+{ level: 'error', timestamp: '2023-06-28T23:03:57.528Z' }
+{ level: 'error', timestamp: '2023-06-28T23:04:19.860Z' }
+{ level: 'error', timestamp: '2023-06-28T23:04:31.461Z' }
+{
+  message: 'No es un administrador.',
+  level: 'error',
+  timestamp: '2023-06-28T23:54:02.507Z'
+}
+{
+  message: 'No es un administrador.',
+  level: 'error',
+  timestamp: '2023-06-28T23:59:55.999Z'
+}
+{ level: 'error', timestamp: '2023-06-29T12:44:29.317Z' }
+{ level: 'error', timestamp: '2023-06-29T12:44:50.403Z' }
+{ level: 'error', timestamp: '2023-06-29T12:46:01.439Z' }
+{ level: 'error', timestamp: '2023-06-29T12:46:31.148Z' }
+{ level: 'error', timestamp: '2023-06-29T12:46:56.314Z' }
+{ level: 'error', timestamp: '2023-06-29T12:47:28.784Z' }
+{ level: 'error', timestamp: '2023-06-29T12:47:51.351Z' }
+{ level: 'error', timestamp: '2023-06-29T12:48:12.260Z' }
+{ level: 'error', timestamp: '2023-06-29T12:48:27.017Z' }
+{ level: 'error', timestamp: '2023-06-29T12:51:00.984Z' }
+{ level: 'error', timestamp: '2023-06-29T12:51:19.359Z' }
+{ level: 'error', timestamp: '2023-06-29T12:52:03.600Z' }
+{ level: 'error', timestamp: '2023-06-29T12:57:56.502Z' }
+{ level: 'error', timestamp: '2023-06-29T12:58:39.670Z' }
+{ level: 'error', timestamp: '2023-06-29T12:59:08.912Z' }
+{ level: 'error', timestamp: '2023-06-29T13:00:08.807Z' }
+{ level: 'error', timestamp: '2023-06-29T13:05:59.883Z' }
+{ level: 'error', timestamp: '2023-06-29T13:06:12.214Z' }
+{ level: 'error', timestamp: '2023-06-29T13:07:00.402Z' }
+{ level: 'error', timestamp: '2023-06-29T13:07:28.632Z' }
+{ level: 'error', timestamp: '2023-06-29T13:11:19.516Z' }
+{ level: 'error', timestamp: '2023-06-29T13:14:45.893Z' }
+{ level: 'error', timestamp: '2023-06-29T13:15:42.050Z' }
+{ level: 'error', timestamp: '2023-06-29T13:15:59.592Z' }
+{ level: 'error', timestamp: '2023-06-29T13:20:33.442Z' }
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T13:20:51.971Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T13:22:27.983Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T13:23:18.219Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:35:13.588Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:35:51.300Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:36:35.486Z'
+}
+{
+  message: 'La contraña no coincide con el email ingresado.',
+  level: 'error',
+  timestamp: '2023-06-29T17:47:28.630Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:55:21.725Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:56:58.188Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:57:33.795Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:57:59.016Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:58:50.591Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T17:59:16.564Z'
+}
+{ level: 'error', timestamp: '2023-06-29T18:00:46.333Z' }
+{ level: 'error', timestamp: '2023-06-29T18:09:49.880Z' }
+{ level: 'error', timestamp: '2023-06-29T18:10:14.315Z' }
+{ level: 'error', timestamp: '2023-06-29T18:19:43.272Z' }
+{ level: 'error', timestamp: '2023-06-29T18:20:19.669Z' }
+{ level: 'error', timestamp: '2023-06-29T18:20:29.286Z' }
+{ level: 'error', timestamp: '2023-06-29T18:20:47.420Z' }
+{ level: 'error', timestamp: '2023-06-29T18:24:32.538Z' }
+{ level: 'error', timestamp: '2023-06-29T18:24:41.498Z' }
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:27:12.745Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:27:55.114Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:28:10.381Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:28:20.563Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:29:19.874Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:29:42.768Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:30:31.522Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-29T18:34:28.114Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T18:35:19.005Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-29T18:35:58.779Z'
+}
+{ level: 'error', timestamp: '2023-06-29T23:12:11.170Z' }
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-06-30T12:10:36.324Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-06-30T12:10:37.670Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-06-30T12:10:39.999Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-06-30T17:47:33.114Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-30T17:49:43.487Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-30T17:54:25.951Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-30T17:54:49.351Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-30T18:03:44.363Z'
+}
+{
+  message: 'El error esta en checkRoleAuth',
+  level: 'error',
+  timestamp: '2023-06-30T18:04:01.970Z'
+}
+{
+  message: 'userId is not defined',
+  level: 'error',
+  timestamp: '2023-06-30T18:37:38.742Z'
+}
+{ level: 'error', timestamp: '2023-06-30T20:34:37.899Z' }
+{ level: 'error', timestamp: '2023-07-01T05:09:37.752Z' }
+{ level: 'error', timestamp: '2023-07-01T05:10:34.575Z' }
+{ level: 'error', timestamp: '2023-07-01T05:11:55.995Z' }
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:53:18.846Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:53:22.422Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:53:38.331Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:53:48.379Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:53:51.086Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:12.048Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:18.139Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:21.219Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:23.383Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:25.720Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:40.681Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:45.308Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:52.943Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:54:57.577Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:55:08.571Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:55:19.969Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:55:46.167Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:55:57.016Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:56:40.179Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:56:49.473Z'
+}
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-01T17:56:54.789Z'
+}
+{ level: 'error', timestamp: '2023-07-01T18:02:49.074Z' }
+{ level: 'error', timestamp: '2023-07-01T18:03:14.402Z' }
+{ level: 'error', timestamp: '2023-07-01T18:03:29.606Z' }
+{ level: 'error', timestamp: '2023-07-01T18:03:42.817Z' }
+{ level: 'error', timestamp: '2023-07-01T18:04:28.407Z' }
+{ level: 'error', timestamp: '2023-07-01T18:04:47.526Z' }
+{ level: 'error', timestamp: '2023-07-01T18:05:43.022Z' }
+{ level: 'error', timestamp: '2023-07-01T18:27:42.735Z' }
+{ level: 'error', timestamp: '2023-07-01T18:30:43.199Z' }
+{ level: 'error', timestamp: '2023-07-01T18:30:53.432Z' }
+{ level: 'error', timestamp: '2023-07-01T18:31:09.678Z' }
+{ level: 'error', timestamp: '2023-07-01T18:48:11.504Z' }
+{ level: 'error', timestamp: '2023-07-01T18:49:08.354Z' }
+{ level: 'error', timestamp: '2023-07-01T18:49:42.034Z' }
+{
+  message: 'Error al intentar conectar con la base de datos.',
+  level: 'error',
+  timestamp: '2023-07-02T16:39:23.057Z'
+}
+{ level: 'error', timestamp: '2023-07-02T16:49:06.145Z' }
+{ level: 'error', timestamp: '2023-07-02T19:12:44.027Z' }
+{
+  message: 'No se ingresaron los datos correspondientes.',
+  level: 'error',
+  timestamp: '2023-07-02T19:47:26.466Z'
+}
+{
+  message: 'id is not defined',
+  level: 'error',
+  timestamp: '2023-07-03T01:30:55.643Z'
+}
+{
+  message: 'id is not defined',
+  level: 'error',
+  timestamp: '2023-07-03T01:30:58.097Z'
+}
+{
+  message: 'id is not defined',
+  level: 'error',
+  timestamp: '2023-07-03T01:47:35.791Z'
+}
+{
+  message: 'id is not defined',
+  level: 'error',
+  timestamp: '2023-07-03T01:47:41.524Z'
+}
+{
+  message: 'cid is not defined',
+  level: 'error',
+  timestamp: '2023-07-03T01:48:44.437Z'
+}
+{
+  message: 'id is not defined',
+  level: 'error',
+  timestamp: '2023-07-03T01:49:07.124Z'
+}
+{
+  message: 'id is not defined',
+  level: 'error',
+  timestamp: '2023-07-03T01:49:30.084Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:33:36.661Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:34:07.511Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:34:14.312Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:35:01.865Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:36:04.844Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:36:12.832Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:36:23.842Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:36:23.845Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:36:33.095Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:36:42.865Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:36:49.452Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:37:34.568Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:37:45.494Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:38:23.094Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:38:28.783Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:38:36.682Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:38:55.608Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:39:36.355Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:39:43.767Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "[object Response]" (type string) at path "_id" for model "Cart"',
+  level: 'error',
+  timestamp: '2023-07-03T12:40:22.451Z'
+}
+{ level: 'error', timestamp: '2023-07-03T13:16:28.327Z' }
+{ level: 'error', timestamp: '2023-07-03T13:16:36.840Z' }
+{ level: 'error', timestamp: '2023-07-03T13:17:16.338Z' }
+{ level: 'error', timestamp: '2023-07-03T13:17:16.341Z' }
+{ level: 'error', timestamp: '2023-07-03T13:17:24.509Z' }
+{ level: 'error', timestamp: '2023-07-03T13:17:51.720Z' }
+{ level: 'error', timestamp: '2023-07-03T13:18:17.142Z' }
+{ message: 'e', level: 'error', timestamp: '2023-07-03T13:20:17.834Z' }
+{ level: 'error', timestamp: '2023-07-03T13:20:58.831Z' }
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:21:14.041Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:21:41.207Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:23:05.846Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:23:12.019Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:24:02.418Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:24:29.422Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:24:45.755Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:24:57.991Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:25:16.059Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:25:24.148Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:25:37.913Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:34:26.987Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:37:16.896Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:39:26.588Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:39:54.605Z'
+}
+{
+  message: 'el error esta por aqui',
+  level: 'error',
+  timestamp: '2023-07-03T13:40:03.978Z'
+}
+{
+  message: "Cannot read properties of null (reading 'order')",
+  level: 'error',
+  timestamp: '2023-07-03T18:11:55.563Z'
+}
+{
+  message: "Cannot read properties of null (reading 'order')",
+  level: 'error',
+  timestamp: '2023-07-03T18:12:37.800Z'
+}
+{
+  message: "Cannot read properties of null (reading 'order')",
+  level: 'error',
+  timestamp: '2023-07-03T18:12:50.389Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'token')",
+  level: 'error',
+  timestamp: '2023-07-03T18:17:29.503Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'token')",
+  level: 'error',
+  timestamp: '2023-07-03T18:17:54.160Z'
+}
+{
+  message: "Cannot read properties of null (reading 'order')",
+  level: 'error',
+  timestamp: '2023-07-03T18:39:43.178Z'
+}
+{ level: 'error', timestamp: '2023-07-03T18:39:58.935Z' }
+{
+  message: "Cannot read properties of null (reading 'order')",
+  level: 'error',
+  timestamp: '2023-07-03T18:47:24.282Z'
+}
+{
+  message: "Cannot read properties of null (reading 'order')",
+  level: 'error',
+  timestamp: '2023-07-03T18:59:52.932Z'
+}
+{
+  message: "Cannot destructure property 'cart' of 'user' as it is null.",
+  level: 'error',
+  timestamp: '2023-07-03T21:44:42.212Z'
+}
+{
+  message: "Cannot read properties of null (reading 'purchaser')",
+  level: 'error',
+  timestamp: '2023-07-03T22:10:07.358Z'
+}
+{
+  message: "Cannot read properties of null (reading 'purchaser')",
+  level: 'error',
+  timestamp: '2023-07-03T22:11:03.191Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-07-03T22:59:37.166Z'
+}
+{
+  message: 'el error esta aqui',
+  level: 'error',
+  timestamp: '2023-07-03T22:59:47.773Z'
+}
+{
+  message: 'error en el create user',
+  level: 'error',
+  timestamp: '2023-07-03T23:07:35.030Z'
+}

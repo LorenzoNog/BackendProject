@@ -1,0 +1,30 @@
+<div class="navbar">
+    <div class="containerLinks">
+      <a href="http://localhost:2022/products">Productos</a>
+      <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+      <a href="http://localhost:2022/profile">Perfil</a>
+      <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+      </div>
+</div>
+
+{{#if product}}
+    <div class="containerDetailProduct">
+        <h2 class="title">{{product.title}}</h2>
+        <div class="containerInfoDetail">
+            <p class="texto">Descripción: <span class="span">{{product.description}}</span></p>
+            <p class="texto">Precio: $<span class="span">{{product.price}}</span></p>
+            <p class="texto">Código de producto: <span class="span">{{product.code}}</span></p>
+            <p class="texto">Stock: <span class="span">{{product.stock}}</span></p>
+            <p class="texto">Categoría: <span class="span">{{product.category}}</span></p>
+            <p class="texto">ID: <span class="span" id="prodId">{{product._id}}</span></p>
+        </div>
+        <button id="addToCart" class="btn" style="margin-top: 3%;" >Agregar al carrito</button>
+        <button id="deleteProduct" class="btn" style="margin-top: 3%;">Eliminar producto</button>
+    </div>
+{{else}}
+    <h2>El producto con el ID {{product.id}} no existe</h2>
+{{/if}}
+<script type="module" src="/js/product.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+<link rel="stylesheet" href="/css/style.css" />

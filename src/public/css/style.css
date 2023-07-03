@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    margin: 3%;
+}
+.h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 3%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.input{
+    padding: 10px;
+    background-color: #c1bcbc;
+    border: none;
+    width: 20%;
+}
+.btn{
+    border: none;
+    padding: 5px;
+    background-color: rgb(204, 204, 204);
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0s ease ;
+}
+.containerButton{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    gap: 20px;
+    padding: 15px;
+}
+.containerLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    font-size: 20px;
+}
+.infoUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.containerInfoPerfil{
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    justify-content: space-between;
+    font-size: 20px;
+    color: cadetblue;
+}
+.containerProducts, .containerUsers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5%;
+}
+.containerProduct, .containerUser{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    gap: 3px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerDetailProduct{
+    margin: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.containerInfoDetail{
+    text-align: justify;
+}
+.texto{
+    font-size: 25px;
+}
+.span{
+    font-weight: bolder;
+    color: cadetblue;
+}
+.containerNavigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    border: 1px solid gray;
+    width: 13%;
+    padding: 2px;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+}
+

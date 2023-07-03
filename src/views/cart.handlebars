@@ -1,0 +1,39 @@
+<div class="navbar">
+  <div class="containerLinks">
+    <a href="http://localhost:2022/products">Productos</a>
+    <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+    <a href="http://localhost:2022/profile">Perfil</a>
+    <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+  </div>
+</div>
+<h1 class="title">
+  Carrito
+</h1>
+<div class="containerNavigation">
+  Navegando: {{user.first_name}} 
+  <span id="userId">{{user._id}}</span>
+</div>
+{{#if hasProducts}}
+  <div class="containerProducts">
+    {{#each products}}
+      <div class="containerProduct">
+        <h2 class="h2">{{_id.title}}</h2>
+        <p>Código: <span class="span">{{_id.code}}</span> </p>
+        <p>Precio: $<span class="span"> {{_id.price}}</span></p>
+        <p>CategorÍa: <span class="span">{{_id.category}}</span></p>
+        <p>Cantidad: <span class="span">{{quantity}}</span></p>
+      </div>
+    {{/each}}
+  </div>
+{{else}}
+  <h2 class="h2">El carrito se encuentra vacío</h2>
+{{/if}}
+<div class="containerButton" style="gap: 20px;">
+  <button class="btn" id="emptyCart" >Vaciar carrito</button>
+  <button class="btn" id="purchase" >Finalizar compra</button>
+</div>
+
+<link rel="stylesheet" href="/css/style.css" />
+<script type="module" src="/js/product.js"></script>
+<script type="module" src="/js/cart.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
