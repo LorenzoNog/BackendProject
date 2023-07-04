@@ -1,7 +1,8 @@
+
 <div class="navbar">
   <div class="containerLinks">
     <a href="http://localhost:2022/products">Productos</a>
-    <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+    <a href="http://localhost:2022/carts/{{cart._id}}">Carrito</a>
     <a href="http://localhost:2022/profile">Perfil</a>
     <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
   </div>
@@ -33,7 +34,5 @@
   <button class="btn" id="purchase" >Finalizar compra</button>
 </div>
 
-<link rel="stylesheet" href="/css/style.css" />
-<script type="module" src="/js/product.js"></script>
 <script type="module" src="/js/cart.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>

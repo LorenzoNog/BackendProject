@@ -5,7 +5,7 @@ import { verifyToken } from "../utils.js";
 
 export const checkAuth = async (req, res, next) => {
   try {
-    const token = req.headers.authorization.split(" ").pop();
+    const token = req.cookies.login.token
     if (token) {
       next();
     } else {
@@ -18,7 +18,7 @@ export const checkAuth = async (req, res, next) => {
 
 export const checkRoleAuth = (role) => async (req, res, next) => {
   try {
-    const token = req.headers.authorization.split(" ").pop()
+    const token = req.cookies.login.token
     const tokenData = await verifyToken(token);
     const user = await usersService.getById(tokenData.user._id);
     if ([].concat(role).includes(user.role)) {

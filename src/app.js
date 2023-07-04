@@ -2,6 +2,7 @@ import express from "express";
 import { __dirname } from "./utils.js";
 import config from "./config/config.js";
 import cookieParser from "cookie-parser";
+import path from 'path'
 //routers
 import usersRouter from "./routes/users.router.js";
 import productsRouter from "./routes/products.router.js";
@@ -23,7 +24,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 //static files
-app.use(express.static(__dirname + "/public"));
+const publicPath = path.resolve(__dirname, 'public')
+app.use(express.static(publicPath));
 
 //routes
 app.use("/api/products", productsRouter);

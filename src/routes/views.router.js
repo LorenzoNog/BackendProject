@@ -15,5 +15,6 @@ viewsRouter.get('/new-password/:userId/:token', viewsController.createNewPasswor
 viewsRouter.get('/create-product', viewsController.createProduct)
 viewsRouter.get('/users-list', viewsController.getUsers)
 viewsRouter.get('/checkout', viewsController.checkout)
+viewsRouter.get("/error-delete-product", viewsController.errorDeleteProduct)
 
 export default viewsRouter

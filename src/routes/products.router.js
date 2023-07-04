@@ -7,7 +7,7 @@ const productsRouter = Router()
 productsRouter.get('/', productsController.getProducts)
 productsRouter.get('/:pid', productsController.getProductById)
 productsRouter.post('/',checkAuth, checkRoleAuth(["Admin", "Premium"]), productsController.createProduct)
-productsRouter.delete('/:pid',checkAuth, checkRoleAuth(["Admin"]), productsController.deleteById)
+productsRouter.delete('/:pid', productsController.deleteById)
 productsRouter.put('/:pid', productsController.updateProduct)
 
 export default productsRouter

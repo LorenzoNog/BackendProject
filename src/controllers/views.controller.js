@@ -34,7 +34,7 @@ class ViewsController {
           hasProducts: products.payload.length > 0,
           products: products.payload,
           cart: user.cart,
-          user
+          user,
         });
       } else {
         res.render("login");
@@ -51,21 +51,13 @@ class ViewsController {
       try {
         const tokenData = await verifyToken(token);
         const user = await usersService.getById(tokenData.user._id);
-        const { cart } = user
+        const { cart } = user;
         const product = await productsService.getById(prodId);
-        if (product.owner === "Admin" && user.role === "Admin") {
-          res.render("productDetailAdmin", {
-            product: product,
-            cart: cart,
-            user
-          });
-        } else {
-          res.render("productDetail", {
-            product: product,
-            cart: cart,
-            user
-          });
-        }
+        res.render("productDetail", {
+          product: product,
+          cart: cart,
+          user,
+        });
       } catch (error) {
         logger.error(error);
       }
@@ -88,7 +80,7 @@ class ViewsController {
       if (token) {
         const tokenData = await verifyToken(token);
         const user = await usersService.getById(tokenData.user._id);
-        const { _id,first_name, last_name, email, role, age, cart } = user;
+        const { _id, first_name, last_name, email, role, age, cart } = user;
         res.render("profile", {
           id: _id,
           full_name: `${first_name} ${last_name}`,
@@ -116,7 +108,7 @@ class ViewsController {
           hasProducts: cart.products.length > 0,
           products: cart.products,
           cart: cart,
-          user
+          user,
         });
       } catch (error) {
         return error;
@@ -180,30 +172,30 @@ class ViewsController {
     }
   };
 
-  getUsers = async (req,res) => {
+  getUsers = async (req, res) => {
     try {
-      const result = await UsersModel.find().lean()
-      const filter = result.filter((user) => user.role !== 'Admin')
-      const token = req.cookies.login.token
-      const tokenData = await verifyToken(token)
-      const user = await usersService.getById(tokenData.user._id)
-      if(user.role === 'Admin'){
-        res.render('users',{
+      const result = await UsersModel.find().lean();
+      const filter = result.filter((user) => user.role !== "Admin");
+      const token = req.cookies.login.token;
+      const tokenData = await verifyToken(token);
+      const user = await usersService.getById(tokenData.user._id);
+      if (user.role === "Admin") {
+        res.render("users", {
           users: filter,
-          cart:user.cart
-        })
-      }else{
-       res.send('No autorizado.') 
+          cart: user.cart,
+        });
+      } else {
+        res.send("No autorizado.");
       }
     } catch (error) {
-      logger.error(error)
+      logger.error(error);
     }
   };
 
-  checkout = async (req,res) => {
+  checkout = async (req, res) => {
     try {
-      res.render('checkout')
-      
+      res.render("checkout");
+
       //obtener ticket a partir del id pasado por params.
 
       /* const ticketById = await ticketsService.getTicketById(ticketId)
@@ -215,7 +207,15 @@ class ViewsController {
         cart: cartById,
       }) */
     } catch (error) {
-      logger.error(error.message)
+      logger.error(error.message);
+    }
+  };
+
+  errorDeleteProduct = async (req, res) => {
+    try {
+      res.render("errorDeleteProduct");
+    } catch (error) {
+      logger.error(error);
     }
   };
 }
