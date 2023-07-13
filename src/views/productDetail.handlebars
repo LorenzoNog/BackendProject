@@ -1,18 +1,18 @@
 <div class="navbar">
   <div class="containerLinks">
-    <a href="http://localhost:2022/products">Productos</a>
-    <a href="http://localhost:2022/carts/{{user.cart}}">Carrito</a>
-    <a href="http://localhost:2022/profile">Perfil</a>
-    <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+    <a class="link" href="http://localhost:2022/products">Productos</a>
+    <a class="link"  href="http://localhost:2022/carts/{{user.cart}}">Carrito</a>
+    <a class="link"  href="http://localhost:2022/profile">Perfil</a>
+    <a class="link"  href="http://localhost:2022/users/logout">Cerrar sesion</a>
   </div>
 </div>
 <div class="containerNavigation">
-  Navegando: {{user.first_name}} 
-  <span id="userId">{{user._id}}</span>
+  <span class="span">Navegando: {{user.first_name}}</span> 
+  <span id="userId" class="span">Id:{{user._id}}</span>
 </div>
 {{#if product}}
   <div class="containerDetailProduct">
-    <h2 class="title">{{product.title}}</h2>
+    <h2 class="title" style="margin-top: -20px">{{product.title}}</h2>
     <div class="containerInfoDetail">
       <p class="texto">Descripción:
         <span class="span">{{product.description}}</span></p>

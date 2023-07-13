@@ -1,9 +1,9 @@
 <div class="navbar">
   <div class="containerLinks">
-    <a href="http://localhost:2022/products">Productos</a>
-    <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
-    <a href="http://localhost:2022/profile">Perfil</a>
-    <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+    <a class="link" href="http://localhost:2022/products">Productos</a>
+    <a class="link" href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+    <a class="link" href="http://localhost:2022/profile">Perfil</a>
+    <a class="link" href="http://localhost:2022/users/logout">Cerrar sesión</a>
   </div>
 </div>
 
@@ -11,11 +11,11 @@
   Tu perfil
 </h2>
 <div class="containerInfoPerfil">
-  <span>Nombre: {{full_name}}</span>
-  <span>Email: {{email}}</span>
-  <span>Rol: {{role}}</span>
-  <span>Edad: {{age}}</span>
-  <span id="userId">Id: {{id}}</span>
+  <span class="span" style="border-bottom: 1px solid gray">Nombre: {{full_name}}</span>
+  <span class="span" style="border-bottom: 1px solid gray" >Email: {{email}}</span>
+  <span class="span" style="border-bottom: 1px solid gray">Rol: {{role}}</span>
+  <span class="span" style="border-bottom: 1px solid gray">Edad: {{age}}</span>
+  <span id="userId" class="span" style="border-bottom: 1px solid gray">Id: {{id}}</span>
 </div>
 
 <div class="containerButton" style="gap: 3%;">

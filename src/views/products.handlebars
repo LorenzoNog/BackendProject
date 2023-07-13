@@ -1,9 +1,9 @@
 <div class="navbar">
   <div class="containerLinks">
-    <a href="http://localhost:2022/products">Productos</a>
-    <a href="http://localhost:2022/carts/{{cart}}">Carrito</a>
-    <a href="http://localhost:2022/profile">Perfil</a>
-    <a href="http://localhost:2022/users/logout">Cerrar sesion</a>
+    <a class="link" href="http://localhost:2022/products">Productos</a>
+    <a class="link" href="http://localhost:2022/carts/{{cart}}">Carrito</a>
+    <a class="link" href="http://localhost:2022/profile">Perfil</a>
+    <a class="link" href="http://localhost:2022/users/logout">Cerrar sesión</a>
   </div>
 </div>
 
@@ -12,10 +12,10 @@
     Bienvenido,
     {{user.first_name}}!
   </h1>
-  <p>Rol: {{user.role}}</p>
+  <p class="subtitle">Rol: {{user.role}}</p>
 </div>
 
-<h1 class="h2">PRODUCTOS</h1>
+<h2 class="subtitle" style="margin-top: 5%; font-weight:bold">PRODUCTOS</h2>
 {{#if hasProducts}}
   <div class="containerProducts">
     {{#each products}}
@@ -47,5 +47,5 @@
     {{/each}}
   </div>
 {{else}}
-  <h2 class="h2">No hay productos para mostrar.</h2>
+  <h2 class="subtitle">No hay productos para mostrar.</h2>
 {{/if}}
